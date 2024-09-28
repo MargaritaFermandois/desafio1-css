@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #1B1F21;
+}
+
+main {
+    display: flex;
+}
+
+
+/* menu de contactos */
+
+.contactos {
+    display: flex;
+    min-width: 16vw;
+    min-height: 100vh;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid #bec1bb;
+}
+
+/* maria */
+
+.maria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #bec1bb;
+    width: 100%;
+    min-height: 7vh;
+}
+
+.contacto-maria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-maria{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+.nombre {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.nombre h3 {
+    font-size: 16px;
+    color: #444749;
+}
+
+.nombre p {
+    font-size: 10px;
+    color: #828485;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    color: #828485;
+}
+
+.iconos i {
+    padding: 0 10px;
+}
+
+/* chat */
+
+.nuevo-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 13vh;
+    width: 100%;
+    border-bottom: 2px solid #bec1bb;
+}
+
+.boton {
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 0;
+    width: 200px;
+    background-color: #a491d2;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* contactos */
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
+    border-bottom: 2px solid #bec1bb;
+}
+
+.img-contacto {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+.nombres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    min-width: 0;
+    flex-grow: 1;
+}
+
+.nombres h3{
+    font-size: 16px;
+    color: #444749;
+}
+.nombres p{
+    font-size: 16px;
+    color: #444749;
+    font-weight: 300;
+}
+
+
+/* seccion principal */
+
+.principal {
+    display: flex;
+    min-width: 84vw;
+    min-height: 100vh;
+    background-color: #e8ebe4;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.titulo {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.text {
+    font-size: 16px;
+    color: #444749;
+    text-align: center;
+}
+
+.negrita-text {
+    font-weight: 600;
+    color: #1B1F21;
+}
+
+.hand {
+    height: 250px;
+}
